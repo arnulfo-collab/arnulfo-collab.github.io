@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Herramientas Digitales</title>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5; /* Cambiado a un tono más claro */
+      margin-bottom: 50px;
+    }
+
+    header {
+      background-color: #3f51b5; /* Cambiado a un tono morado */
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      background: linear-gradient(45deg, #3949ab, #3f51b5); /* Degradado morado */
+    }
+
+    nav {
+      background-color: #1a237e; /* Cambiado a un tono más oscuro */
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      background-color: #0d47a1; /* Tono más oscuro al pasar el mouse */
+      border-radius: 5px;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      transition: box-shadow 0.3s ease-in-out; /* Efecto de transición en las secciones */
+    }
+
+    section:hover {
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Sutil aumento del efecto de sombra al pasar el mouse */
+    }
+
+    h2 {
+      color: #3f51b5; /* Color morado para los títulos */
+      border-bottom: 2px solid #3f51b5;
+      padding-bottom: 10px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    img:hover {
+      transform: scale(1.1);
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background-color: #3f51b5;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Agregado el menú de navegación antes del header -->
+  <nav>
+    <a href="#about">Acerca de Nosotros</a>
+    <a href="#location">Ubicación</a>
+    <a href="#products">Productos</a>
+    <a href="#payment-shipping">Pago y Envío</a>
+    <a href="#delivery">Entrega</a>
+    <a href="#returns-warranty">Devoluciones</a>
+    <a href="#faq">Preguntas Frecuentes</a>
+  </nav>
+
+  <header>
+    <h1 style="font-size: 2em;">Herramientas Digitales</h1>
+  </header>
+
+  <section id="about">
+    <h2>Acerca de Nosotros</h2>
+    <p>Somos una empresa dedicada a proporcionar las mejores herramientas digitales para facilitar tu vida cotidiana. Nuestro objetivo es ofrecer productos de alta calidad que hagan tu vida más fácil y eficiente.</p>
+  </section>
+
+  <section id="location">
+    <h2>Ubicación</h2>
+    <p>Realiza tus compras desde la comodidad de tu hogar o visita la facultad de ciencias administrativas en el salon 422.</p>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13440.454615176479!2d-115.4827753!3d32.6297967!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d77a878c3c06fd%3A0x51475fdb17b84719!2sUABC%20Facultad%20de%20Ciencias%20Administrativas!5e0!3m2!1sen!2smx!4v1701054183473!5m2!1sen!2smx" width="100%" height="450" style="border:0; border-radius: 8px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+  <section id="products">
+    <h2>Productos Destacados</h2>
+    <ul>
+      <li>
+        <img src="ms.jpg" alt="Herramienta Digital 1">
+        <p>Microsoft Office revolucionará tu forma de trabajar. ¡Precio especial: $199.99!</p>
+      </li>
+      <li>
+        <img src="adobe.jpg" alt="Herramienta Digital 2">
+        <p>Descubre la versatilidad de la paquetería Adobe. ¡Aprovecha esta oferta por tiempo limitado: $149.99 con 10% de descuento!</p>
+      </li>
+      <!-- Agregar más productos según sea necesario -->
+    </ul>
+  </section>
+
+  <section id="payment-shipping">
+    <h2>Formas de Pago y Envío</h2>
+    <p>Aceptamos pagos con tarjeta de crédito y PayPal. Enviamos nuestros productos a través de nuestra asociación con una empresa de envíos confiable para garantizar una entrega segura y oportuna.</p>
+ <!-- Botón de Compra -->
+    <a class="buy-button" href="#" target="_blank">Comprar</a>
+
+    <!-- Logotipo de PayPal -->
+    <img class="paypal-logo" src="paypal_logo.png" alt="PayPal">
+  </section>
+
+  <section id="delivery">
+    <h2>Tiempos Estimados de Entrega</h2>
+    <p>Los tiempos de entrega varían según la ubicación, pero generalmente entregamos en 3-5 días hábiles.</p>
+  </section>
+
+  <section id="returns-warranty">
+    <h2>Devoluciones y Garantías</h2>
+    <p>Ofrecemos una política de devolución de 30 días para garantizar tu satisfacción. Todos nuestros productos están respaldados por una garantía de calidad.</p>
+  </section>
+
+ <section id="faq">
+    <h2>Preguntas Frecuentes</h2>
+    <ul>
+      <li>
+        <strong>¿Cuáles son los métodos de pago aceptados?</strong>
+        <p>Aceptamos tarjetas de crédito, débito y PayPal como métodos de pago.</p>
+      </li>
+      <li>
+        <strong>¿Cuánto tiempo tarda en llegar mi pedido?</strong>
+        <p>Los tiempos de entrega varían, pero generalmente entregamos en 3-5 días hábiles después de la confirmación del pago.</p>
+      </li>
+      <li>
+        <strong>¿Cómo puedo realizar una devolución?</strong>
+        <p>Puedes iniciar una devolución dentro de los 30 días posteriores a la recepción del producto. Comunícate con nuestro equipo de atención al cliente para obtener asistencia.</p>
+      </li>
+      <li>
+        <strong>¿Ofrecen garantía en sus productos?</strong>
+        <p>Sí, todos nuestros productos están respaldados por una garantía de calidad. Consulta nuestra política de garantía para obtener más detalles.</p>
+      </li>
+      <!-- Agregar más preguntas y respuestas según sea necesario -->
+    </ul>
+  </section>
+
+ <!-- Sección de Contacto -->
+  <section id="contact">
+    <h2>Contacto</h2>
+    <form action="#" method="post"> <!-- Actualiza el atributo 'action' con la URL de tu servidor para procesar el formulario -->
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Correo Electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Mensaje:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+
+  <footer>
+    <p style="margin-bottom: 0;">&copy; 2023 Herramientas Digitales. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
+
